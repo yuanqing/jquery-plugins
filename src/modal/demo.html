@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>modal</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" media="all" href="../../css/reset.css">
+	<link rel="stylesheet" media="all" href="../../css/base.css">
+	<link rel="stylesheet" media="all" href="style.css">
+	<script src="../../js/jquery.min.js"></script>
+	<script src="jquery.modal.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+<ul class="debug"><li><a href="#" class="debug-init">init</a></li><li><a href="#" class="debug-destroy">destroy</a></li></ul>
+
+<div class="wrapper">
+  <a href="/path/to/modal/contents/" class="modal-button" data-modal="#myModal" data-modal-show>Show</a>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel libero nisl. Sed auctor iaculis nibh, in adipiscing dui ullamcorper id. Duis at gravida elit. Aliquam at tristique sem. Proin rutrum, ligula a luctus porttitor, velit massa tempus ante, vel accumsan magna eros vitae massa. Nunc laoreet pretium risus, quis euismod sapien tempor in. Nunc scelerisque egestas risus in laoreet. Fusce sollicitudin odio neque, vitae congue mi vulputate vitae. Duis et sapien vel sapien ornare malesuada a vitae risus. Nullam blandit gravida libero sollicitudin tempus. Proin tempus eleifend convallis. In adipiscing urna quis vehicula gravida. Integer facilisis urna nec libero scelerisque, tristique lobortis libero vulputate. Aliquam in felis velit. Suspendisse potenti.</p>
+  <p>Praesent mattis ut risus vel cursus. Suspendisse eget orci congue, sodales nibh ac, mollis massa. Aenean eget magna commodo, fermentum elit volutpat, egestas magna. Sed vitae pellentesque tortor. Integer ornare ipsum id ornare tempor. Duis pretium tortor quis nisi euismod, sed imperdiet orci posuere. Ut facilisis ac felis quis hendrerit. Donec accumsan ultrices egestas. Sed risus tellus, gravida quis interdum in, semper quis lorem. Sed elementum massa et justo dignissim, at pellentesque urna malesuada. Integer facilisis hendrerit sagittis.</p>
+  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent posuere orci lacus, et aliquam velit vehicula non. Proin ut aliquam mauris, eget dictum tortor. Etiam ut nulla accumsan, tincidunt augue in, tristique felis. Mauris gravida arcu vel scelerisque lobortis. Aenean facilisis dolor tellus. Curabitur pretium turpis condimentum tellus malesuada, sit amet pharetra turpis euismod. Morbi posuere turpis quam, at consectetur purus varius vitae. Nulla eu nisi eu mi facilisis dictum. Fusce non tristique nunc, ac consequat sapien. In nec vestibulum libero. Duis sed ligula ac eros eleifend feugiat non nec odio.</p>
+</div>
+
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-inner">
+    <button data-modal="#myModal" data-modal-hide>Hide</button>
+    <p>Maecenas consequat urna in erat gravida, in faucibus sapien placerat. Mauris nisi sapien, venenatis vehicula pellentesque id, commodo porta justo. Vestibulum orci metus, interdum ac velit nec, porta elementum dui. Aliquam enim nibh, luctus quis tincidunt ac, vulputate ac justo. In hac habitasse platea dictumst. Ut volutpat cursus imperdiet. Integer tristique orci ipsum, eu dictum sapien pulvinar in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras fermentum volutpat mi ac lobortis. Nunc et diam non quam porta posuere ac a metus.</p>
+    <p>Donec ultricies sapien eleifend, faucibus felis hendrerit, ultrices sapien. Suspendisse scelerisque commodo massa et mollis. Maecenas tristique arcu porttitor libero facilisis consequat. Phasellus aliquet vel leo luctus tincidunt. Etiam a felis nisi. Nullam sodales est sit amet tortor eleifend, in tempor quam placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum fermentum massa a semper adipiscing. Suspendisse orci tellus, auctor non nulla ut, gravida porttitor arcu. Phasellus eleifend varius est, sit amet blandit felis hendrerit eget.</p>
+    <p>Pellentesque quis diam gravida erat placerat dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at dolor sagittis, iaculis lacus vel, imperdiet dolor. Vivamus in nibh fermentum, lobortis leo eu, volutpat sem. Suspendisse aliquet nisl ut sem ullamcorper, et fermentum arcu vestibulum. Mauris a ante in odio auctor egestas vel sit amet quam. Mauris vehicula consequat pharetra. Aliquam ullamcorper, massa eget rhoncus faucibus, mauris magna vehicula lectus, porta tincidunt dolor erat eu arcu. In nibh turpis, facilisis in sapien non, sollicitudin posuere velit. Nunc suscipit nunc sit amet libero hendrerit fermentum. Nulla sit amet metus urna. Donec id nisl ac neque tempus porta. Curabitur ac bibendum lectus, et molestie tellus.</p>
+  </div>
+</div>
+
+</body>
+</html>

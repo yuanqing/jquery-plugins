@@ -1,0 +1,8 @@
+.modal-lock {overflow: hidden; }
+
+.modal-button {display: block; color: #fff; background-color: blue; }
+
+.modal {position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; opacity: 0; overflow: auto; overflow-y: scroll; background-color: #7f7f7f; background-color: rgba(0,0,0,0.5); transition: opacity .2s ease-in; }
+.modal-transition {z-index: 1001; }
+.modal-show {z-index: 1001; opacity: 1; }
+.modal-inner {margin: 10px auto; width: 320px; background: #fff; }

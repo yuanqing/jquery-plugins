@@ -1,0 +1,6 @@
+.filter a {display: block; color: #fff; background: red; }
+.filter-active a {color: red; background: none; transition: color .2s ease-in, background-color .2s ease-in; }
+.filter-active .filter-current a {color: #fff; background: red; }
+.filter-menu a {display: block; color: blue; transition: color .2s ease-in, background-color .2s ease-in; }
+.filter-menu .filter-current {background: blue; color: #fff; }
+.filter-init a {transition: none; }

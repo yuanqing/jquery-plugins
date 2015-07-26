@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>filter</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" media="all" href="../../css/reset.css">
+	<link rel="stylesheet" media="all" href="../../css/base.css">
+	<link rel="stylesheet" media="all" href="style.css">
+	<script src="../../js/jquery.min.js"></script>
+	<script src="jquery.filter.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+<ul class="debug"><li><a href="#" class="debug-init">init</a></li><li><a href="#" class="debug-destroy">destroy</a></li></ul>
+
+<div class="wrapper">
+  <ul class="filter-menu">
+    <li><a href="#all" data-filter="all">All</a></li>
+    <li><a href="#lorem-ipsum" data-filter="lorem-ipsum">Lorem Ipsum</a></li>
+    <li><a href="#adipiscing" data-filter="adipiscing">Adipiscing</a></li>
+    <li><a href="#que-placerat" data-filter="que-placerat">Qui Placerat</a></li>
+  </ul>
+  <ul class="filter">
+    <li data-filter="lorem-ipsum"><a href="#">Sed No Alia</a></li>
+    <li data-filter="adipiscing,que-placerat"><a href="#">Interpretaris</a></li>
+    <li data-filter="que-placerat"><a href="#">Phaedrum Et</a></li>
+    <li data-filter="adipiscing"><a href="#">Instructior</a></li>
+    <li data-filter="que-placerat"><a href="#">Nostro Et Vix</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

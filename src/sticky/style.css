@@ -1,0 +1,6 @@
+h2 {color: #fff; background: #00f; }
+
+.sticky-active {position: relative; }
+.sticky-stuck {position: absolute; top: 0; left: 0; width: 100%; }
+.sticky-stuck .sticky-item {display: none; }
+.sticky-stuck .sticky-show {display: block; }

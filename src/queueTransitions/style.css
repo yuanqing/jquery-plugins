@@ -1,0 +1,4 @@
+#demo {color: #fff; background: gray; transition: background-color 1s ease-in; -webkit-transition: background-color 1s ease-in; }
+#demo.r {background: red; }
+#demo.g {background: green; }
+#demo.b {background: blue; }

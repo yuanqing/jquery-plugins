@@ -1,0 +1,29 @@
+.wrapper {margin: 0 auto; width: auto; }
+.thumbnail {background: blue; color: #fff; }
+.filler {display: none; background: gray; }
+.padThumbnails-show {display: block; }
+
+@media screen and (min-width: 480px) {
+.wrapper {width: 320px; }
+.thumbnails-wrap {overflow: hidden; }
+.thumbnail,
+.filler {float: left; width: 50%; }
+}
+
+@media screen and (min-width: 768px) {
+.wrapper {width: 480px; }
+.thumbnail,
+.filler {width: 33.3333333333%; }
+}
+
+@media screen and (min-width: 1024px) {
+.wrapper {width: 768px; }
+.thumbnail,
+.filler {width: 25%; }
+}
+
+@media screen and (min-width: 1280px) {
+.wrapper {width: 1024px; }
+.thumbnail,
+.filler {width: 16.6666666666%; }
+}

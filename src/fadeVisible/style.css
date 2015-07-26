@@ -1,0 +1,11 @@
+.image {background-color: #333; background-color: rgba(0,0,0,.8); }
+.image img {display: block; width: 100%; height: auto; }
+
+.imagePlaceholder-active {position: relative; }
+.imagePlaceholder-active span {display: block; }
+.imagePlaceholder-active img {position: absolute; top: 0; left: 0; display: block; width: 100%; height: auto; }
+
+.fadeVisible-active {opacity: 0; }
+.fadeVisible-visible {opacity: 1; transition: opacity .5s ease-in; }
+.fadeVisible-visible img {opacity: 1; transition: opacity .5s ease-in; }
+.fadeVisible-loading img {opacity: 0; }

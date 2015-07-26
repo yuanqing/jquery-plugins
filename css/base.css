@@ -1,0 +1,10 @@
+body {font: normal 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+a {text-decoration: underline; }
+a:hover, a:active {text-decoration: none; }
+
+.wrapper {margin: 0 auto; padding-bottom: 20px; width: 320px; }
+
+.debug {position: fixed; bottom: 0; right: 0; z-index: 9999; }
+.debug li {float: left; }
+.debug a {float: left; display: block; padding: 3px 8px 4px 8px; margin-left: 1px; color: #fff; background: #000; }
